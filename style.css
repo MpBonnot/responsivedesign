@@ -1,0 +1,8 @@
+@font-face {
+  font-family:"Format 1452";  
+  src: url("./assets/Format_1452.woff2") format("woff2");
+}
+
+h1 {
+    font-family: "Format 1452";
+}
