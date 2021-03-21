@@ -3,6 +3,32 @@
   src: url("./assets/Format_1452.woff2") format("woff2");
 }
 
+@font-face {
+    font-family:"Pilowlava";  
+    src: url("./assets/Pilowlava-Regular.woff2") format("woff2");
+  }
+
+
 h1 {
+    font-family: "Pilowlava";
+}
+
+h2 {
     font-family: "Format 1452";
+}
+
+.paragraph {
+   font-family:"Format 1452";
+   font-size: 50px;
+   color: red;
+   transform: rotate(10deg);
+}
+
+.blue:hover {
+    color: blue;
+    font-size: 80px;
+}
+
+.invisible:hover {
+    opacity: 0;
 }
