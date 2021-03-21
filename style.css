@@ -8,20 +8,26 @@
     src: url("./assets/Pilowlava-Regular.woff2") format("woff2");
   }
 
+  body{
+      background-color: bisque;
+  }
 
 h1 {
     font-family: "Pilowlava";
+    font-size: 100px;
+    color: pink;
 }
 
 h2 {
     font-family: "Format 1452";
+    color: orange;
+    font-size: 70px;
 }
 
 .paragraph {
    font-family:"Format 1452";
    font-size: 50px;
-   color: red;
-   transform: rotate(10deg);
+   color: brown;
 }
 
 .blue:hover {
@@ -29,6 +35,13 @@ h2 {
     font-size: 80px;
 }
 
-.invisible:hover {
-    opacity: 0;
+.tilt:hover {
+    font-size: 80px;
+    color: orange;
+}
+
+.font:hover {
+    font-family: "Pilowlava";
+    color: white;
+    font-size: 80px;
 }
