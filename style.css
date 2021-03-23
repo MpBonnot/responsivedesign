@@ -9,13 +9,18 @@
   }
 
   body{
-      background-color: bisque;
+    background: linear-gradient(220deg, #f9a859, #f7f596, #d55b3f, #ec5e1c);
+    background-size: 800% 800%;
+
+    -webkit-animation: Animation1 19s ease infinite;
+    -moz-animation: Animation1 19s ease infinite;
+    animation: Animation1 19s ease infinite;
   }
 
 h1 {
     font-family: "Pilowlava";
     font-size: 100px;
-    color: pink;
+    color: white;
 }
 
 h2 {
@@ -31,7 +36,7 @@ h2 {
 }
 
 .blue:hover {
-    color: blue;
+    color: white;
     font-size: 80px;
 }
 
@@ -44,4 +49,34 @@ h2 {
     font-family: "Pilowlava";
     color: white;
     font-size: 80px;
+}
+
+.big {
+    color: orange;
+    position: relative;
+    animation: fadeIn 3s infinite;
+      }
+      
+      @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+  }
+
+
+
+@-webkit-keyframes Animation1 {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@-moz-keyframes Animation1 {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+}
+@keyframes Animation1 { 
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
 }
